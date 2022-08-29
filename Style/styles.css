@@ -510,6 +510,97 @@ section {
   word-spacing: 1.2px;
 }
 
+.contact-content-con {
+  display: flex;
+  padding-top: 3.5rem;
+}
+.contact-content-con .contact-left {
+  flex: 3;
+  margin-right: 5rem;
+  text-align: center;
+}
+.contact-content-con .contact-left h4 {
+  margin-top: 1rem;
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  word-spacing: 8px;
+}
+.contact-content-con .contact-left .contact-title {
+  text-align: justify;
+  color: var(--color-secondary);
+  line-height: 1.8rem;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+.contact-content-con .contact-left p {
+  margin: 0.8rem 0;
+  line-height: 1.4rem;
+  font-size: 1.15rem;
+}
+.contact-content-con .contact-left .contact-info .contact-item {
+  display: flex;
+  justify-content: space-between;
+}
+.contact-content-con .contact-left .contact-info .contact-item .contact-icon {
+  display: grid;
+  grid-template-columns: 36px 1fr;
+}
+.contact-content-con .contact-icon {
+  display: flex;
+  margin-top: 1rem;
+}
+.contact-content-con .contact-icon a {
+  display: flex;
+  align-items: center;
+  color: var(--color-white);
+  background-color: var(--color-gray4);
+  cursor: pointer;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 0 0.4rem;
+  transition: all 0.6s ease-in-out;
+  margin-top: 2rem;
+  box-shadow: var(--box-shadow-3);
+}
+.contact-content-con .contact-icon a:hover {
+  background-color: var(--color-secondary);
+}
+.contact-content-con .contact-icon a:hover img {
+  color: var(--color-secondary);
+}
+.contact-content-con .contact-right {
+  flex: 3;
+  margin-left: 2rem;
+  margin-top: 5rem;
+}
+.contact-content-con .contact-right .input-control {
+  margin: 1.5rem 0;
+}
+.contact-content-con .contact-right .input-control input, .contact-content-con .contact-right .input-control textarea {
+  border-radius: 30px;
+  font-weight: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  padding: 0.8rem 1.1rem;
+  outline: none;
+  border: none;
+  background-color: var(--color-gray5);
+  width: 100%;
+  color: var(--color-white);
+  resize: none;
+}
+.contact-content-con .contact-right .i-c-2 {
+  display: flex;
+}
+.contact-content-con .contact-right .i-c-2 :last-child {
+  margin-left: 1.5rem;
+}
+.contact-content-con .main-btn {
+  margin-top: 25px;
+}
+
 .btn-con {
   display: inline-flex;
   align-self: flex-start;
