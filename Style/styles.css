@@ -116,7 +116,7 @@ section {
   z-index: 12;
   top: 50%;
   right: 2%;
-  display: flexbox;
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -129,7 +129,7 @@ section {
   height: 55px;
   border-radius: 50%;
   display: flex;
-  margin: 25px;
+  margin: 15px;
   box-shadow: var(--box-shadow-3);
 }
 .controls .control i {
@@ -185,7 +185,7 @@ section {
   transform: translateX(10px);
 }
 .controls .tooltip:hover .tooltip-text {
-  top: -60%;
+  top: -20%;
   visibility: visible;
   opacity: 1;
 }
@@ -231,18 +231,21 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-right: 16.5rem;
+  padding-right: 14rem;
   padding-left: 2rem;
 }
 .header-content .right-header .name {
-  font-size: 3rem;
+  font-size: 3.3rem;
+  font-family: slabo;
 }
 .header-content .right-header .name span {
   color: var(--color-secondary);
 }
 .header-content .right-header p {
-  margin: 1.6rem 0;
+  margin: 1.3rem 0;
   line-height: 2rem;
+  font-size: 19px;
+  font-family: slabo;
 }
 
 .about-container {
@@ -676,4 +679,28 @@ section {
   font-weight: 800;
   font-size: 4.2rem;
   text-shadow: 0 0 6px rgba(28, 189, 90, 0.298);
+}
+
+@media screen and (max-width: 900px) {
+  header .right-header {
+    padding: 1.8rem !important;
+    margin-bottom: 6rem;
+  }
+  header .left-header {
+    padding: 1.8rem !important;
+    margin-bottom: 6rem;
+  }
+  .controls {
+    flex-direction: row;
+    top: auto;
+    bottom: 0;
+    justify-content: center;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .controls .control {
+    margin: 1rem 1rem;
+  }
 }/*# sourceMappingURL=styles.css.map */

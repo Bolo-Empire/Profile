@@ -1,0 +1,26 @@
+@media screen and (max-width: 900px){
+
+     header .right-header{
+         padding: 1.8rem !important;
+         margin-bottom: 6rem;
+     }
+     header .left-header{
+      padding: 1.8rem !important;
+      margin-bottom: 6rem;
+  }
+
+     .controls{
+        flex-direction: row;
+        top: auto;
+        bottom: 0;
+        justify-content: center;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        margin-bottom: 10px;
+
+        .control{
+            margin: 1rem 1rem;
+        }
+     }
+}
