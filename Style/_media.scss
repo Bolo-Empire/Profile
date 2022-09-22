@@ -1,13 +1,18 @@
 @media screen and (max-width: 900px){
 
+
      header .right-header{
          padding: 1.8rem !important;
-         margin-bottom: 6rem;
+         margin-bottom: 5rem;
+         height: 70%;
+         .name{
+          font-size: 2.8rem !important;
+        }
      }
      header .left-header{
-      padding: 1.8rem !important;
-      margin-bottom: 6rem;
-  }
+      padding: 0;
+     
+     }
 
      .controls{
         flex-direction: row;
@@ -18,9 +23,54 @@
         transform: translateX(-50%);
         width: 100%;
         margin-bottom: 10px;
+        background-color: rgba(0, 0, 0, 0.808);
+         
+
 
         .control{
             margin: 1rem 1rem;
         }
      }
+}
+
+
+@media screen and (max-width: 650px){
+  .right-header{
+
+    height: 60%;
+  }
+
+
+  .image {
+    height: 30%;
+
+  }
+  .h-shape{
+    display: 20%;
+  }
+}
+
+
+@media screen and (max-width: 465px){
+  .left-header img{
+   display: none;
+  }
+  .h-shape{
+    display: none;
+  }
+  .controls{
+    position:absolute;
+    overflow: scroll;
+    .control{
+      margin: .5rem .5rem;
+  }
+}
+  .right-header{
+    margin-right: 10rem;
+    width: 100%;
+    height: 80%;
+  }
+  .name{
+    font-size: 2rem !important;
+  }
 }
