@@ -1,3 +1,16 @@
+@media screen and (max-width: 1350px){
+  .contact-content-con{
+    flex-direction: column;
+    .contact-right{
+      margin: 0;
+      margin-top: 3rem;
+      margin-bottom: 15rem;
+    }
+  }
+}
+
+
+
 @media screen and (max-width: 900px){
 
 
@@ -31,6 +44,15 @@
             margin: 1rem 1rem;
         }
      }
+
+
+    .about-container{
+      grid-template-columns: 1fr;
+     }
+     .section{
+      padding: 2.3rem 2rem !important;
+     }
+     
 }
 
 
@@ -48,6 +70,22 @@
   .h-shape{
     display: 20%;
   }
+  .about-container{
+   .right-about{
+    grid-template-columns: 1fr;
+    margin-top: 4rem;
+  }
+}
+  .slider{
+    margin-bottom: 10rem;
+  }
+  .portfolios{
+    grid-template-columns: 1fr;
+  }
+  .blogs{
+    grid-template-columns: 1fr;
+  }
+  
 }
 
 
